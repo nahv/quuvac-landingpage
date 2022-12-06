@@ -5988,6 +5988,7 @@ textarea.form-control-lg {
 .carousel {
   margin-top: -10rem;
   position: relative;
+  height: 100%;
 }
 
 .carousel.pointer-event {
@@ -6004,9 +6005,9 @@ textarea.form-control-lg {
   clear: both;
   content: "";
 }
-.carousel-inner .item img {
-  height: 100%;
-  width: 100% !important;
+.carousel-inner img {
+  height: 35%;
+  width: 35% !important;
 }
 
 .carousel-item {
@@ -11797,7 +11798,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 .services-container {
   display: flex;
   flex-direction: row;
-  margin-top:0;
+  justify-content: space-between;
+  margin-top: 0;
 }
 @media (max-width: 576px) {
   .logo-container {
@@ -11805,8 +11807,27 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
   .carousel {
     margin-top:5rem;
+    width: 100%
+  }
+  .carousel-inner img {
+  height: 75%;
+  width: 75% !important;
+}
+  .mapouter {
+    margin-top: 2rem;
+    width: 100%
   }
   .services-container {
     flex-direction: column;
   }
+
+  .btn-social {
+  height: 4rem;
+  width: 4rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: 100%;
+}
 }
