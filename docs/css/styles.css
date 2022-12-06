@@ -11791,7 +11791,22 @@ section#contact form#contactForm :-ms-input-placeholder {
 .text-logo {
   color:white;
 }
-
 .logo-container {
   margin-left: 5rem;
+}
+.services-container {
+  display: flex;
+  flex-direction: row;
+  margin-top:0;
+}
+@media (max-width: 576px) {
+  .logo-container {
+    display: none;
+  }
+  .carousel {
+    margin-top:5rem;
+  }
+  .services-container {
+    flex-direction: column;
+  }
 }
