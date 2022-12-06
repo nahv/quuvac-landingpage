@@ -5986,6 +5986,7 @@ textarea.form-control-lg {
 }
 
 .carousel {
+  margin-top: -10rem;
   position: relative;
 }
 
@@ -6002,6 +6003,10 @@ textarea.form-control-lg {
   display: block;
   clear: both;
   content: "";
+}
+.carousel-inner .item img {
+  height: 100%;
+  width: 100% !important;
 }
 
 .carousel-item {
@@ -6191,6 +6196,13 @@ textarea.form-control-lg {
 .carousel-dark .carousel-caption {
   color: #000;
 }
+
+.mapouter {
+  margin-top: -3rem;
+}
+
+
+
 
 @-webkit-keyframes spinner-border {
   to {
@@ -11327,8 +11339,8 @@ p {
 }
 
 .btn-social {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 7rem;
+  width: 7rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -11774,4 +11786,12 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.text-logo {
+  color:white;
+}
+
+.logo-container {
+  margin-left: 5rem;
 }
